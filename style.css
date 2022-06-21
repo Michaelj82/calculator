@@ -43,7 +43,7 @@ button{
 
 }
 
-#calculator > input{
+#calculator > #display{
     height: 10%;
 }
 
@@ -59,7 +59,7 @@ button{
     display: grid;
 
     grid-template-columns: repeat(3, 1fr);
-    width: 75%;
+    width: 65%;
     min-height: 100%;
 
 }
@@ -70,7 +70,7 @@ button{
     display:grid;
     grid-template-columns: repeat(1, 1fr);
 
-    width: 25%;
+    width: 35%;
     min-height:100%;
 
 }
