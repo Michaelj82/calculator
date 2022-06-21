@@ -1,0 +1,76 @@
+html, body{
+    margin: 0;
+    height: 100%;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+
+    border: solid;
+    border-color: red;
+}
+
+#header{
+    border: solid;
+    color: white;
+    padding: 2%;
+    font-size: 4vw;
+
+
+}
+
+
+#calculator{
+    display: flex;
+    flex-direction: column;
+    border:solid;
+    border-color: aqua;
+    height: 35vw;
+    width: 35vw;
+
+
+}
+
+
+button{
+
+    margin: 3%;
+
+}
+
+#calculator > input{
+    height: 10%;
+}
+
+#calculator > #buttons{
+    display: flex;
+    flex-direction: row;
+
+    height: 90%;
+}
+
+#calculator > #buttons > .numbers{
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    width: 75%;
+    min-height: 100%;
+
+}
+
+
+#calculator > #buttons > .symbols{
+
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    width: 25%;
+    min-height:100%;
+
+}
