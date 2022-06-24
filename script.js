@@ -52,7 +52,11 @@ function makeNegative(){
 
 
 }
-
+function addPeriod (){
+    if (inputBox.value.includes('.') == false){
+        inputBox.value += '.'
+    }
+}
 
 
 function addNumber (num){
