@@ -10,7 +10,6 @@ body{
     justify-content: center;
     align-items: center;
     background-color: gray;
-
     border: solid;
     border-color: red;
 }
@@ -20,6 +19,8 @@ body{
     color: white;
     padding: 2%;
     font-size: 4vw;
+    border-radius: 25px;
+    margin: 1%;
 
 
 }
@@ -29,25 +30,30 @@ body{
     display: flex;
     flex-direction: column;
     border:solid;
-    border-color: aqua;
+    background-color: black;
+    padding: 2%;
     height: 35vw;
     width: 35vw;
+    box-shadow: 10px 10px 16px #000000;
 
 
 }
 
 
 button{
-
+    font-size: 2vw;
     margin: 3%;
 
 }
 
 #calculator > #display{
     height: 10%;
+    text-align: right;
+    font-size: 2vw;
 }
 
 #calculator > #buttons{
+
     display: flex;
     flex-direction: row;
 
@@ -57,7 +63,6 @@ button{
 #calculator > #buttons > .numbers{
 
     display: grid;
-
     grid-template-columns: repeat(3, 1fr);
     width: 65%;
     min-height: 100%;

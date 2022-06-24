@@ -28,18 +28,22 @@
                 <button onclick="addNumber(2)">2</button>
                 <button onclick="addNumber(3)">3</button>
                 <button onclick="addNumber(0)">0</button>    
+                <button onclick="addNumber('.')">.</button>   
+                <button onclick="makeNegative()">+/-</button>    
+ 
+
 
             </div>
         
 
             <div class="symbols">
                 <button onclick="deleteChar()">Backspace</button>
-                <button>Clear</button>
-                <button>+</button>
-                <button>-</button>
-                <button>*</button>
-                <button>/</button>
-                <button>=</button>
+                <button onclick="eval('Clear')">Clear</button>
+                <button onclick="eval('+')">+</button>
+                <button onclick="eval('-')">-</button>
+                <button onclick="eval('*')">*</button>
+                <button onclick="eval('/')">/</button>
+                <button onclick="eval('=')">=</button>
 
             </div>
         </div>
